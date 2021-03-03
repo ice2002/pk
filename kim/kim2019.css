@@ -1,0 +1,127 @@
+@charset "utf-8";
+body,div,ul,li,a {margin: 0; padding: 0; border: 0}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #E1DDE3;/*#E1DDE3 #666*/
+    /*background-image: url(../img/bg0.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: top center;*/
+}
+
+li {
+    list-style: none;
+}
+
+#background {
+    background-image: url(../img/bg0.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 1080px;
+    position: absolute;
+    z-index: -999;
+}
+
+#main {
+    width: 68%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    font-family: Microsoft YaHei;
+}
+
+#header {
+    height: 200px;
+    background: url(../img/Logo_new.gif) no-repeat center;
+    background-size: 520px 150px;
+    background-color: rgba(0,0,0,0.1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000);
+    text-align: center;
+}
+
+.menu {
+    padding-top: 160px;
+}
+
+.menu ul li{
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 5px 0 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 0 4px #000000,0 1px 4px #000000,0 -1px 4px #000000,-1px 0 4px #000000;
+    filter:glow(color=#000000,strength=3);
+}
+
+a:hover {
+    color: #bd0a01;
+}
+
+#section {
+    background-color: rgba(0,0,0,0.2);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
+    height: 680px;
+}
+
+#section #left {
+    width: 49.9%;
+    height: 680px;
+    float: left;
+}
+
+#section #right {
+    width: 49.9%;
+    height: 680px;
+    float: right;
+}
+
+#section #right #presentation {
+    padding: 5px 0 0 20px;
+    margin-top: 80px;
+}
+
+#content
+{
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    padding-left: 25px;
+}
+
+#footer {
+    background-color: rgba(0,0,0,0.1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000);
+    height: 200px;
+}
+
+#footer #copyright {
+    /*color: black;*/
+    text-align: center;
+    line-height: 25px;
+    padding-top: 55px;
+}
+
+#footer #copyright a{
+    padding: 0;
+}
+
+#footer #copyright #c {
+    font-family: Helvetica, Arial;
+    font-size: 16px;
+}
+
+.clear { clear: both; }
+
+.color {
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 0 4px #000000,0 1px 4px #000000,0 -1px 4px #000000,-1px 0 4px #000000;
+    filter:glow(color=#000000,strength=3);
+}
