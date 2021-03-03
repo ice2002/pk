@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html lang="zh">
 <head>
-<title>Ğ¡Ñ©´«Ææ-2002±ùÑ©ÃÀÈË-Ê§Âä´óµÛ</title>
-<meta content="zh-cn" http-equiv="Content-Language" />
-<meta content="text/html; charset=gb2312" http-equiv="Content-Type" />
+<title>å°é›ªä¼ å¥‡-2002å†°é›ªç¾äºº-å¤±è½å¤§å¸</title>
+<meta content="zh-cn" http-equiv="Content-Language"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <style>
 body {
     width: 50%;
@@ -16,14 +16,23 @@ body {
     width: 100%;
     height: 100%;
     align: center;
+    font-family: Helvetica, Arial;
 }
 
 #content {
-    padding-left: 35px;
+    padding-left: 15px;
 }
 
-#content#logo {
-    padding-top: 20px;
+#content #logo {
+    padding-top: 15px;
+}
+
+#content #links {
+    font-size: 15px;
+}
+
+#content #tips {
+    font-size: 15px;
 }
 
 a {text-decoration: none;}
@@ -48,62 +57,34 @@ img {
     filter:glow(color=#0c0c0c,strength=3);
 }
 </style>
-<script>
-function get(url, callback)
-{
-    var oAjax = null;
-    if(window.XMLHttpRequest)
-    {
-        oAjax = new XMLHttpRequest();
-    }
-    else
-    {
-        oAjax = new ActiveXObject("Microsoft.XMLHTTP");
-    }
-
-    oAjax.open('GET', url, true);
-    oAjax.send();
-    oAjax.onreadystatechange = function ()
-    {
-        if(oAjax.readyState==4)
-        {
-            if(oAjax.status==200 && callback != null)
-            {
-                callback(oAjax.responseText);
-            }
-        }
-    };
-}
-
-// window.onload = function()
-// {
-// 	var oTips = null;
-//     oTips = document.getElementById("tips");
-//     get("./ip.php?v="+new Date, function(szIP){
-// 		oTips.innerText='ÄúµÄ£É£Ğ£º '+szIP;
-// 	});
-// }
-</script>
 </head>
-<body>
-<div id="main" class="style">
-<div id="content">
-<div id="logo">
-<img src="./img/new.gif" />±ùÑ©ÃÀÈË,Ê§Âä´óµÛÍâ¹ÒPK°æ<img src="./img/new.gif" /><br />
-<img src="./img/new.gif" />³¤Äê¿ª·Å,»¶Ó­ÄúµÄ¼ÓÈë!<img src="./img/new.gif" />
-</div>
-<div id="links">
-<P>
-¿Í·ş£Ñ£Ñ£º <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2528090518" target=_blank>2528090518</a><br />
 
-£Ñ£ÑÈºÒ»£º <a href="//shang.qq.com/wpa/qunwpa?idkey=687792e7a2fb11576c1a318cf7774d60d8720f94e47c87a5e0ee754a37a1fe82">451679368</a><br />
-£Ñ£ÑÈº¶ş£º <a href="//shang.qq.com/wpa/qunwpa?idkey=558e4ffff5fc6eb8af5e58139a2c736ab1e06bb25a128181829b476cb0932534">464669089</a><br />
-£Ñ£ÑÈºÈı£º <a href="//shang.qq.com/wpa/qunwpa?idkey=558e4ffff5fc6eb8af5e58139a2c736ab1e06bb25a128181829b476cb0932534">498260881</a><br />
-¹Ù·½ÍøÕ¾£º <a href="http://docs.17pk.pub" target=_blank>docs.17pk.pub</a><br />
-<span id="tips"></span>
-</P>
+<body>
+
+<div id="main" class="style">
+
+    <div id="content">
+        <div id="logo">
+            <img src="./img/new.gif" />å†°é›ªç¾äºº,å¤±è½å¤§å¸å¤–æŒ‚PKç‰ˆ<img src="./img/new.gif" /><br/>
+            <img src="./img/new.gif" />é•¿å¹´å¼€æ”¾,æ¬¢è¿æ‚¨çš„åŠ å…¥!<img src="./img/new.gif" />
+        </div>
+        
+        <div id="links">
+            <P>
+                ç®¡ç†QQï¼š <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2528090518" target=_blank>2528090518</a><br/>
+                <!--meta http-equiv="refresh" content="0; url=tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2528090518"-->
+                QQç¾¤ä¸€ï¼š <a href="//shang.qq.com/wpa/qunwpa?idkey=687792e7a2fb11576c1a318cf7774d60d8720f94e47c87a5e0ee754a37a1fe82">451679368</a><br/>
+                QQç¾¤äºŒï¼š <a href="//shang.qq.com/wpa/qunwpa?idkey=558e4ffff5fc6eb8af5e58139a2c736ab1e06bb25a128181829b476cb0932534">464669089</a><br/>
+                QQç¾¤ä¸‰ï¼š <a href="//shang.qq.com/wpa/qunwpa?idkey=558e4ffff5fc6eb8af5e58139a2c736ab1e06bb25a128181829b476cb0932534">498260881</a><br/>
+                æ”»ç•¥æŸ¥è¯¢ï¼š <a href="http://docs.17pk.pub" target=_blank>http://docs.17pk.pub</a>
+            </P>
+        </div>
+
+        <div id="tips">
+        </div>
+    </div>
+     
 </div>
-</div>
-</div>
+
 </body>
 </html>
