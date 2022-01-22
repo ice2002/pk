@@ -10,7 +10,7 @@ button {background-color: red; color: #333300;}
 a:link,a:visited {text-decoration:none; color:#004299;}
 a:hover,a:active,a:focus {color:#2263a5; text-decoration:none;}
 table {width: 100%; background: red; margin: 10px auto; border-collapse: collapse;}
-th,td {height: 25px; line-height: 25px; text-align: center; border: 1px solid brown; }
+th,td {height: 50px; line-height: 25px; text-align: center; border: 1px solid brown; }
 th {background: red; font-weight: normal;}
 tr {background: red;}
 /*td:hover {background: #CCC;}*/
@@ -37,6 +37,6 @@ background: url(../img/Logo_new.gif) no-repeat center;
 background-size: 300px 100px;
 background-color: rgba(0,0,0,0.1);
 }
-#comment{text-align: left;}
+#comment{text-align: center; height: 50px;}
 #item {border: 0; width: 248px; height: 292px;}
 #pic {border: 0; width: 577px; height: 431px;}
