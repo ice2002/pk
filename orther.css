@@ -1,0 +1,42 @@
+@charset "utf-8";
+* {margin:0; padding:0;}
+body {margin:0; padding:0;background:#fff url(../i/img/Mybg.png) repeat;}
+body,input {line-height:28px; font-size:18px; color:#000; }
+body,html {overflow-x:hidden; }
+li,ul,ol { list-style:none;}
+img {border: 0; width: 80%; height: 80%;}
+hr {border: 1px ridge #f7cfcd; }
+button {/*background-color: #fff;*/ color: #333300; border: 1px solid aquamarine;}
+a:link,a:visited {text-decoration:none; color:#004299;}
+a:hover,a:active,a:focus {color:#2263a5; text-decoration:none;}
+table {width: 100%; background: #fff; margin: 10px auto; border-collapse: collapse;}
+th,td {height: 50px; line-height: 25px; text-align: center; border: 1px solid aquamarine; }
+th {background: #fff; font-weight: normal;}
+tr {background: #fff;}
+/*td:hover {background: #CCC;}*/
+/*#D1BA95*/
+.color {
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 0 4px #000000,0 1px 4px #000000,0 -1px 4px #000000,-1px 0 4px #000000;
+    filter:glow(color=#000000,strength=3);
+}
+#content
+{
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+#main {line-height:27px; font-size:15px; color: #333300; text-align: left; background:#fff; margin-bottom:0px; max-width:720px; margin:0px auto; box-shadow:0 0 15px #ccc; overflow:hidden;}
+#logo{
+height: 100px;
+background: url(../img/Logo_new.gif) no-repeat center;
+background-size: 300px 100px;
+background-color: rgba(0,0,0,0.1);
+}
+#comment{text-align: center; height: 50px;}
+#item {border: 0; width: 248px; height: 292px;}
+#pic {border: 0; width: 577px; height: 431px;}
