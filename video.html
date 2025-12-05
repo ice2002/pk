@@ -48,7 +48,7 @@
 if(Hls.isSupported()) {
 	var video = document.getElementById('video');
 	var hls = new Hls();
-	hls.loadSource('/ts/i.m3u8');
+	hls.loadSource('https://files.ices.dpdns.org/ts/i.m3u8');
 	hls.attachMedia(video);
 	hls.on(Hls.Events.MANIFEST_PARSED, function() {
 		video.play();
